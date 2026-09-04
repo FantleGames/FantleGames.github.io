@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Usunięcie konta i danych — Fantle</title>
+<style>
+  :root {
+    --tlo: #16121f;
+    --karta: #1f1a2c;
+    --obwodka: #3a3050;
+    --tekst: #e8dcc2;
+    --przygaszony: #a89bc0;
+    --zloto: #e8b43a;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    padding: 32px 16px 64px;
+    background: var(--tlo);
+    color: var(--tekst);
+    font: 17px/1.65 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  }
+  main { max-width: 720px; margin: 0 auto; }
+  header { text-align: center; margin-bottom: 40px; }
+  h1 { font-size: 30px; margin: 0 0 6px; color: var(--zloto); letter-spacing: .5px; }
+  .podtytul { color: var(--przygaszony); font-size: 15px; margin: 0; }
+  h2 { font-size: 21px; margin: 36px 0 12px; color: var(--zloto); }
+  .karta {
+    background: var(--karta);
+    border: 1px solid var(--obwodka);
+    border-radius: 10px;
+    padding: 20px 24px;
+    margin: 18px 0;
+  }
+  ol, ul { padding-left: 22px; margin: 12px 0; }
+  li { margin: 7px 0; }
+  a { color: var(--zloto); }
+  .mail {
+    display: inline-block;
+    font-size: 19px;
+    font-weight: 600;
+    color: var(--zloto);
+    word-break: break-all;
+  }
+  .uwaga { color: var(--przygaszony); font-size: 15px; }
+  footer {
+    margin-top: 48px; padding-top: 20px;
+    border-top: 1px solid var(--obwodka);
+    color: var(--przygaszony); font-size: 14px; text-align: center;
+  }
+  footer a { margin: 0 10px; }
+</style>
+</head>
+<body>
+<main>
+
+  <header>
+    <h1>Usunięcie konta i danych</h1>
+    <p class="podtytul">Fantle &middot; Flapexo</p>
+  </header>
+
+  <p>
+    Konto w grze <strong>Fantle</strong> możesz usunąć wraz ze wszystkimi danymi.
+    Są na to dwa sposoby.
+  </p>
+
+  <h2>Sposób 1: w aplikacji</h2>
+  <div class="karta">
+    <ol>
+      <li>Otwórz Fantle.</li>
+      <li>Wejdź w <strong>KONTO</strong> z menu głównego.</li>
+      <li>Na dole ekranu wybierz <strong>USUŃ KONTO</strong> i potwierdź.</li>
+      <li>
+        Masz <strong>24 godziny na odwołanie</strong>. Przez ten czas nic nie jest usuwane,
+        a decyzję cofniesz przyciskiem <strong>ANULUJ USUNIĘCIE</strong> w tym samym miejscu.
+      </li>
+      <li>Po upływie doby konto i wszystkie dane zostają usunięte przy najbliższym uruchomieniu gry.</li>
+    </ol>
+  </div>
+
+  <h2>Sposób 2: mailem</h2>
+  <div class="karta">
+    <p>Jeśli usunąłeś już aplikację albo nie masz do niej dostępu, napisz na:</p>
+    <p><a class="mail" href="mailto:FantleGames@gmail.com">FantleGames@gmail.com</a></p>
+    <p>
+      W treści podaj nazwę gracza używaną w Fantle.
+      Żądanie realizujemy w ciągu <strong>30 dni</strong>.
+    </p>
+  </div>
+
+  <h2>Co zostaje usunięte</h2>
+  <ul>
+    <li>profil gracza: nazwa, złoto, klejnoty i statystyki</li>
+    <li>kopie zapisu gry przechowywane w chmurze</li>
+    <li>wpisy we wszystkich rankingach</li>
+    <li>rezerwacja nazwy gracza, dzięki czemu nazwa wraca do puli wolnych</li>
+    <li>zapisy z przebiegu rozgrywki gromadzone do wyważania gry</li>
+    <li>wiadomości w skrzynce w grze</li>
+    <li>konto uwierzytelniające, wraz z adresem e-mail i powiązaniem z kontem Google,
+        jeśli logowałeś się nim w grze</li>
+  </ul>
+  <p class="uwaga">Usunięcie jest trwałe i nie da się go cofnąć po upływie doby.</p>
+
+  <h2>Co zostaje na urządzeniu</h2>
+  <p>
+    Zapis gry przechowywany lokalnie jest kasowany razem z kontem. Odinstalowanie aplikacji
+    usuwa go niezależnie od tego, czy zażądałeś usunięcia konta.
+  </p>
+
+  <h2>Dane przechowywane dłużej</h2>
+  <p>
+    Po usunięciu konta nie zostaje <strong>nic, co da się z tobą powiązać</strong>. Adres
+    e-mail z konta Google, jeśli logowałeś się nim w grze, znika razem z kontem. Fantle nie
+    zbiera danych płatniczych — zakupy obsługuje Google Play i dane karty nigdy do nas
+    nie trafiają.
+  </p>
+  <p>
+    Pozostają wyłącznie <strong>zbiorcze statystyki uruchomień gry</strong> gromadzone przez
+    Google Analytics dla Firebase. Nie są powiązane z kontem, nazwą gracza ani adresem e-mail
+    i nie pozwalają zidentyfikować konkretnej osoby. Zapisy pojedynczych zdarzeń Google
+    usuwa najpóźniej po 14 miesiącach, a bezterminowo zostają jedynie liczby zbiorcze,
+    na przykład ile razy grę uruchomiono w danym miesiącu. Aplikacja nie odczytuje
+    identyfikatora reklamowego Androida.
+  </p>
+
+  <footer>
+    <a href="prywatnosc.html">Polityka prywatności</a>
+    <span>&middot;</span>
+    <span>Flapexo</span>
+  </footer>
+
+</main>
+</body>
+</html>

@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Polityka prywatności — Fantle</title>
+<style>
+  :root {
+    --tlo: #16121f;
+    --karta: #1f1a2c;
+    --obwodka: #3a3050;
+    --tekst: #e8dcc2;
+    --przygaszony: #a89bc0;
+    --zloto: #e8b43a;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    padding: 32px 16px 64px;
+    background: var(--tlo);
+    color: var(--tekst);
+    font: 17px/1.65 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  }
+  main { max-width: 720px; margin: 0 auto; }
+  header { text-align: center; margin-bottom: 40px; }
+  h1 { font-size: 30px; margin: 0 0 6px; color: var(--zloto); letter-spacing: .5px; }
+  .podtytul { color: var(--przygaszony); font-size: 15px; margin: 0; }
+  h2 { font-size: 21px; margin: 36px 0 12px; color: var(--zloto); }
+  .karta {
+    background: var(--karta);
+    border: 1px solid var(--obwodka);
+    border-radius: 10px;
+    padding: 20px 24px;
+    margin: 18px 0;
+  }
+  ul { padding-left: 22px; margin: 12px 0; }
+  li { margin: 7px 0; }
+  a { color: var(--zloto); }
+  .mail { font-weight: 600; word-break: break-all; }
+  footer {
+    margin-top: 48px; padding-top: 20px;
+    border-top: 1px solid var(--obwodka);
+    color: var(--przygaszony); font-size: 14px; text-align: center;
+  }
+  footer a { margin: 0 10px; }
+</style>
+</head>
+<body>
+<main>
+
+  <header>
+    <h1>Polityka prywatności</h1>
+    <p class="podtytul">Fantle &middot; Flapexo &middot; ostatnia aktualizacja: 4 września 2026</p>
+  </header>
+
+  <p>
+    Aplikacja <strong>Fantle</strong> jest tworzona i wydawana przez <strong>Flapexo</strong>.
+    Ten dokument opisuje, jakie dane aplikacja zbiera, po co i co możesz z nimi zrobić.
+  </p>
+
+  <h2>Kto odpowiada za dane</h2>
+  <div class="karta">
+    <p>Flapexo, kontakt: <a class="mail" href="mailto:FantleGames@gmail.com">FantleGames@gmail.com</a></p>
+  </div>
+
+  <h2>Jakie dane zbieramy</h2>
+  <p>
+    Aplikacja tworzy konto automatycznie przy pierwszym uruchomieniu i przypisuje mu
+    identyfikator. Do tego identyfikatora przypisane są:
+  </p>
+  <ul>
+    <li><strong>nazwa gracza</strong>, którą sam podajesz, widoczna publicznie w rankingach</li>
+    <li><strong>postęp w grze</strong>: waluty, poziomy postaci i statystyki rozgrywki</li>
+    <li><strong>kopia zapisu gry</strong>, żeby dało się odzyskać postęp po awarii lub zmianie
+        urządzenia — zawiera nazwy postaci, które sam nadałeś, oraz zdobyte przedmioty</li>
+    <li><strong>zapisy przebiegu rozgrywki</strong>: klasa postaci, arena, poziom trudności,
+        czasy i wynik biegu, używane wyłącznie do wyważania trudności gry</li>
+    <li><strong>treść zgłoszeń błędów</strong>, gdy sam je wyślesz, razem z modelem urządzenia
+        i wersją systemu</li>
+    <li><strong>adres e-mail</strong>, wyłącznie jeśli zalogujesz się kontem Google — opisane niżej</li>
+  </ul>
+  <h2>Logowanie kontem Google</h2>
+  <p>
+    Logowanie kontem Google jest <strong>dobrowolne</strong>. W Fantle można grać bez niego,
+    na koncie zakładanym automatycznie przy pierwszym uruchomieniu.
+  </p>
+  <div class="karta">
+    <p>
+      Jeśli się zalogujesz, otrzymujemy i przechowujemy <strong>adres e-mail przypisany
+      do twojego konta Google</strong>. Służy wyłącznie do rozpoznania konta, gdy zmienisz
+      urządzenie albo zainstalujesz grę ponownie.
+    </p>
+    <p>
+      Nie wysyłamy na niego żadnych wiadomości, nie używamy go do reklam i nikomu go
+      nie przekazujemy. Przechowywany jest w usłudze Firebase Authentication i znika
+      razem z usunięciem konta.
+    </p>
+  </div>
+  <p>
+    Poza adresem e-mail nie pobieramy z konta Google niczego: ani zdjęcia profilowego,
+    ani kontaktów, ani zawartości poczty czy dysku.
+  </p>
+
+  <h2>Płatności</h2>
+  <p>
+    Zakupy w grze, jeśli się na nie zdecydujesz, obsługuje w całości Google Play. Dane karty
+    i pozostałe dane płatnicze podajesz Google, nie nam. Fantle ich nie widzi, nie otrzymuje
+    i nie przechowuje.
+  </p>
+
+  <h2>Statystyki działania aplikacji</h2>
+  <p>
+    Aplikacja korzysta z <strong>Google Analytics dla Firebase</strong>, żeby wiedzieć,
+    ile osób uruchamia grę i czy do niej wracają. Narzędzie zbiera automatycznie:
+    nadany przez siebie identyfikator instancji aplikacji, model urządzenia, wersję
+    systemu, wersję gry, język oraz przybliżony kraj wyliczany z adresu IP.
+  </p>
+  <p>
+    Te dane <strong>nie są powiązane z twoim kontem w grze</strong>, z nazwą gracza ani
+    z adresem e-mail. Nie pozwalają ustalić, kim jesteś. Służą wyłącznie do liczenia,
+    ile osób gra i jak długo przy niej zostają. Nikomu ich nie przekazujemy
+    i nie sprzedajemy.
+  </p>
+
+  <h2>Reklamy</h2>
+  <p>
+    Fantle nie wyświetla reklam i nie wysyła żadnych danych do sieci reklamowych.
+  </p>
+  <div class="karta">
+    <p>
+      Odczyt <strong>identyfikatora reklamowego Androida</strong> (Advertising ID),
+      identyfikatora SSAID oraz sygnałów personalizacji reklam jest w aplikacji
+      <strong>wyłączony</strong>. Fantle nie pobiera tych identyfikatorów i nie prosi
+      o uprawnienie <code>AD_ID</code>.
+    </p>
+  </div>
+
+  <h2>Czego nie zbieramy</h2>
+  <p>
+    Dokładnej lokalizacji, numeru telefonu, danych płatniczych, kontaktów, kalendarza,
+    zdjęć, plików, dźwięku, historii przeglądania ani listy zainstalowanych aplikacji.
+    Aplikacja nie prosi o żadne z tych uprawnień.
+  </p>
+
+  <h2>Gdzie trafiają dane</h2>
+  <p>
+    Twoje konto, zapisy gry, wyniki w rankingach i zapisy przebiegu rozgrywki przechowywane
+    są w usłudze Google Firebase (Firestore i Firebase Authentication), w centrum danych
+    na terenie <strong>Unii Europejskiej</strong>. Połączenie z serwerem jest szyfrowane.
+  </p>
+  <p>
+    Opisane wyżej statystyki uruchomień przetwarza Google Analytics dla Firebase
+    na własnej infrastrukturze Google, która może znajdować się <strong>poza Unią
+    Europejską</strong>. Dotyczy to wyłącznie tych statystyk i żadnych danych powiązanych
+    z twoim kontem.
+  </p>
+  <p>
+    Google występuje w obu przypadkach jako dostawca infrastruktury. Nie przekazujemy
+    danych żadnym innym podmiotom i nie sprzedajemy ich.
+  </p>
+
+  <h2>Jak długo je przechowujemy</h2>
+  <p>
+    Dane powiązane z kontem przechowujemy do momentu jego usunięcia. Po usunięciu znikają
+    w całości i nie zachowujemy kopii. Statystyki uruchomień, które nie są powiązane z żadnym
+    kontem, Google usuwa na poziomie pojedynczych zdarzeń najpóźniej po
+    <strong>14 miesiącach</strong>. Bezterminowo pozostają jedynie liczby zbiorcze,
+    na przykład ile razy grę uruchomiono w danym miesiącu.
+  </p>
+
+  <h2>Jak usunąć swoje dane</h2>
+  <div class="karta">
+    <p>
+      W aplikacji: ekran <strong>KONTO</strong>, pozycja <strong>USUŃ KONTO</strong>.
+      Masz dobę na odwołanie decyzji.
+    </p>
+    <p>
+      Jeśli nie masz już dostępu do aplikacji, napisz na
+      <a class="mail" href="mailto:FantleGames@gmail.com">FantleGames@gmail.com</a>
+      i podaj nazwę gracza. Żądanie realizujemy w ciągu 30 dni.
+    </p>
+    <p>Pełny opis procedury: <a href="index.html">Usunięcie konta i danych</a></p>
+  </div>
+
+  <h2>Dzieci</h2>
+  <p>
+    Aplikacja jest przeznaczona dla osób w wieku <strong>13 lat i starszych</strong>
+    i nie jest kierowana do dzieci.
+  </p>
+
+  <h2>Zmiany</h2>
+  <p>
+    Jeśli zakres zbieranych danych się zmieni, zmienimy również ten dokument i datę
+    na jego początku.
+  </p>
+
+  <footer>
+    <a href="index.html">Usunięcie konta</a>
+    <span>&middot;</span>
+    <span>Flapexo</span>
+  </footer>
+
+</main>
+</body>
+</html>
